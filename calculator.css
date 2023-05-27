@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(background\ -image.jpg) ;
+    background-attachment: fixed;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 450px;
+    position: fixed;
+    
+}
+.calculator{
+    background:#3a4452 ;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px; 
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(211, 97, 171, 0), 5px 5px 15px rgba(213, 110, 110, 0.4);
+    background: transparent;
+    font-size: 22px;
+    color: aquamarine;
+    margin: 12px;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+.display input{
+    text-align: right;
+    font-size: 40px;
+    box-shadow: 0;
+    flex: 1;
+
+}
